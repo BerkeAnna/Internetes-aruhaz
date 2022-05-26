@@ -1,0 +1,10 @@
+.container
+{
+    background-color: rgb(75, 75, 75);
+    color: white;
+    width: fit-content;
+    margin: auto;
+    margin-top: 200px;
+    opacity: 0.85;
+    padding: 20px;
+}

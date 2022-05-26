@@ -1,0 +1,4 @@
+- Adatbázis
+- Szűrők létehozása
+- Termékek feltöltése
+- Névre keresés

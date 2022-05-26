@@ -1,0 +1,20 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteRule ^adminkezdolap$ index.php?page=adminkezdolap&%{QUERY_STRING}
+
+RewriteRule ^admin_adatmodositas$ index.php?page=admin_adatmodositas&%{QUERY_STRING}
+
+RewriteRule ^kosarfeltoltes$ index.php?page=kosarfeltoltes&%{QUERY_STRING}
+RewriteRule ^termekfeltoltes$ index.php?page=termekfeltoltes&%{QUERY_STRING}
+RewriteRule ^grillsutofeltoltes$ index.php?page=grillsutofeltoltes&%{QUERY_STRING}
+RewriteRule ^telefonfeltoltes$ index.php?page=telefonfeltoltes&%{QUERY_STRING}
+RewriteRule ^TVfeltoltes$ index.php?page=TVfeltoltes&%{QUERY_STRING}
+RewriteRule ^mosogepfeltoltes$ index.php?page=mosogepfeltoltes&%{QUERY_STRING}
+RewriteRule ^kerekparfeltoltes$ index.php?page=kerekparfeltoltes&%{QUERY_STRING}
+RewriteRule ^horgaszbotfeltoltes$ index.php?page=horgaszbotfeltoltes&%{QUERY_STRING}
+RewriteRule ^parfumfeltoltes$ index.php?page=parfumfeltoltes&%{QUERY_STRING}
+
+RewriteRule ^karbantart$ index.php?page=karbantart&%{QUERY_STRING}
+
+

@@ -1,0 +1,14 @@
+RewriteEngine On
+
+RewriteRule ^kezdolap$ index.php?page=kezdolap&%{QUERY_STRING}
+RewriteRule ^tvk$ index.php?page=tvk&%{QUERY_STRING}
+RewriteRule ^telefonok$ index.php?page=telefonok&%{QUERY_STRING}
+RewriteRule ^mosogepek$ index.php?page=mosogepek&%{QUERY_STRING}
+RewriteRule ^kerekparok$ index.php?page=kerekparok&%{QUERY_STRING}
+RewriteRule ^horgaszbotok$ index.php?page=horgaszbotok&%{QUERY_STRING}
+RewriteRule ^grillsutok$ index.php?page=grillsutok&%{QUERY_STRING}
+RewriteRule ^parfumok$ index.php?page=parfumok&%{QUERY_STRING}
+
+RewriteRule ^belepes$ index.php?page=belepes&%{QUERY_STRING}
+RewriteRule ^felhasznalo_adatok$ index.php?page=felhasznalo_adatok&%{QUERY_STRING}
+RewriteRule ^kosar$ index.php?page=kosar&%{QUERY_STRING}

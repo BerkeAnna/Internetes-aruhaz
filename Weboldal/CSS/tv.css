@@ -1,0 +1,165 @@
+#container {
+    width: 80vw;
+    display: flex;
+    margin: 8vh auto 10vh;
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+
+#products-container {
+    background-color: white;
+    flex: 3;
+    float: left;
+    border-radius: 0 20px 20px 0;
+}
+
+#filters-container {
+    background-color: white;
+    flex: 1;
+    float: left;
+    border-radius: 20px 0 0 20px;
+}
+
+.mini-containers {
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.cimek {
+    font-weight: bold;
+    color: #505050;
+    background-color: #d0d9ff;
+    border-top: 1px solid #a0a8fd;
+    border-bottom: 1px solid #a0a8fd;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.szurok {
+    padding-left: 15px;
+}
+
+#szures-container {
+    text-align: center;
+    border-radius: 20px 0 0 0;
+}
+
+p {
+    display: inline;
+}
+
+input[type="number"] {
+    width: 6vw;
+    height: 30px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+label {
+    line-height: 25px;
+}
+
+/* _______________________ szoveg formázása _______________________ */
+
+.termek {
+    display: flex;
+    border-bottom: 1px solid #9597f1;
+}
+
+.termek:last-child {
+    border-bottom: none;
+}
+
+.kep {
+    float: left;
+    /*background-color: #9f364e;*/
+    width: 30%;
+}
+
+.termek-kepe {
+    height: 10vw;
+    display: block;
+    margin: 2vh auto auto;
+}
+
+.szoveg-main {
+    float: left;
+    /*background-color: chocolate;*/
+    width: 70%;
+    height: 12vw;
+}
+
+.szoveg {
+    width: 70%;
+    height: 100%;
+    /*background-color: #d93bff;*/
+    max-height: 12vw;
+    overflow: auto;
+    float: left;
+}
+
+.termek-nev {
+    line-height: 8vh;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: large;
+}
+
+/* _______________________ Ár-Kosár szoveg formázása _______________________ */
+
+.ar-kosar {
+    /*background-color: #9DBFAF;*/
+    width: 30%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    overflow: auto;
+}
+
+.ar {
+    font-weight: bold;
+    font-size: larger;
+    margin-bottom: 10px;
+    margin-top: 2vw;
+}
+
+input[type=submit] {
+    width: 100px;
+    background: rgb(233,20,20);
+    background:
+            linear-gradient(158deg, rgba(233,20,20,1) 0%, rgb(136, 28, 76) 100%);
+    color: white;
+    margin: 0 auto;
+    padding: 12px;
+    cursor: pointer;
+    border: none;
+    display: block;
+    border-radius: 5px;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+input[type=submit]:hover {
+    background: black;
+}
+
+table
+{
+    margin: 0 auto;
+
+}
+
+td, th, tr
+{
+    border: #88490e;
+    background-color: #dda4ee;
+    vertical-align: text-after-edge;
+    padding: 0px;
+
+}

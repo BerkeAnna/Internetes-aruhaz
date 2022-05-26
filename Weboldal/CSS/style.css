@@ -1,0 +1,298 @@
+html, body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    background: rgb(233,20,20);
+    background: linear-gradient(158deg, rgba(233,20,20,1) 0%, rgba(29,25,156,1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#header 
+{
+    height: 200px;
+    width: 1200px;
+    background-color: #3a4b84;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    margin: 0 auto 50px auto;
+    z-index: 10;
+}
+
+header
+{
+    transform: scale(1);
+}
+/* _________________webshop formázása_________________ */
+
+#logo
+{
+    width: 200px;
+    display: block;
+    transform: translate(20%, 10%);
+}
+
+/* _________________upper elements formázása_________________ */
+
+#upper-nav
+{
+    width: fit-content;
+    max-width: 100%;
+    top: 0;
+    float: right;
+    padding: 0;
+}
+
+#upper-icons
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.upper-menu-element
+{
+    float: left;
+    width: 50px;
+    line-height: 40px;
+    text-align: center;
+    background-color: white;
+}
+
+.upper-menu-element:first-child
+{
+    border-radius: 0 0 0 10px;
+    transform: translateZ(0);
+}
+
+.upper-menu-element:hover
+{
+    background: rgb(233,20,20);
+    background:
+            linear-gradient(158deg, rgba(233,20,20,1) 0%, rgba(156,25,131,1) 100%);
+}
+
+.icons
+{
+    color: #3a4b84;
+    transition: 0.3s;
+    display: block;
+}
+
+.icons:hover
+{
+    color: white;
+    transition: 0.3s;
+}
+
+/* _________________search bar formázása_________________ */
+
+.wrap
+{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.search
+{
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.searchTerm
+{
+    width: 100%;
+    padding: 5px;
+    height: 30px;
+    border-radius: 8px 0 0 8px;
+    outline: none;
+    color: #9DBFAF;
+    border: none;
+    background-color: #f1f1f1;
+}
+
+.searchTerm:focus
+{
+    color: black;
+    background-color: white;
+}
+
+.searchButton
+{
+    width: 40px;
+    height: 40px;
+    background: rgb(233,20,20);
+    background:
+            linear-gradient(158deg, rgba(233,20,20,1) 0%, rgba(156,25,131,1) 100%);
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+}
+
+.searchButton:hover
+{
+    background: rgb(233,20,20);
+    background:
+            linear-gradient(158deg, rgba(233,20,20,1) 0%, rgba(156,25,131,0.5662640056022409) 100%);
+}
+
+/* _________________menü formázása_________________ */
+
+nav
+{
+    /*z-index: 20;
+    width: fit-content;
+    top: 170px;
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    max-width: 100%;*/
+}
+
+.menu 
+{
+    /*margin: 0;*/
+    list-style-type: none;
+    /*padding: 0;*/
+    z-index: 20;
+    width: fit-content;
+    top: 170px;
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+}
+
+.dropdown
+{
+    float: left;
+    background-color: #e9dbff;
+    transition: 0.3s;
+    position: relative;
+    display: block;
+}
+
+.dropdown:first-child
+{
+    border-radius: 10px 0 0 10px;
+}
+
+.dropdown:last-child
+{
+    border-radius: 0 10px 10px 0;
+}
+
+.normal a
+{
+    padding: 5px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    display: block;
+    color: rgb(32, 32, 32);
+    line-height: 50px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.dropdown:hover
+{
+    background-color: rgb(124, 123, 255);
+    transition: 0.3s;
+}
+
+.dropdown a:hover
+{
+    color: white;
+    transition: 0.3s;
+}
+
+.kijelolt
+{
+    background-color: white;
+    transform: translateZ(0);
+}
+
+/* _________________almenük formázása_________________ */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 0 0 10px 10px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: rgb(124, 123, 255);}
+
+.dropdown-content a:last-child:hover {border-radius: 0 0 10px 10px;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+/* _________________footer formázása_________________ */
+table
+{
+    margin: auto;
+}
+
+#footer_table td
+{
+    padding: 0 4vw;
+}
+
+footer
+{
+    background-color: white;
+    padding: 4vh 0;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+a
+{
+    text-decoration: none;
+    color: #202020;
+}
+
+a:hover
+{
+    color: #818181;
+}
+
+.bejelentkezes
+{
+    color: white;
+    position: absolute;
+    float: right;
+    right: 20px;
+    top: 20px;
+    text-shadow: 2px 2px black;
+}
